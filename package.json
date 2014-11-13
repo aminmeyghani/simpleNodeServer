@@ -1,0 +1,25 @@
+{
+  "name": "connect-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "chip": "0.0.5",
+    "colors": "^1.0.3",
+    "commander": "^2.5.0",
+    "connect": "^3.3.3",
+    "http": "0.0.0",
+    "path": "^0.4.9",
+    "serve-index": "^1.5.0",
+    "serve-static": "^1.7.1"
+  },
+  "bin": {
+    "simpleServer": "simpleServer.js"
+  }
+}
